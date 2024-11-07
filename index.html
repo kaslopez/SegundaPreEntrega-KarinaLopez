@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/rosaIcono.ico">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rosacruz - Landing Page</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logoRosaCruz.png" alt="Logo Rosacruz">
+        </div>
+        <button class="menu-toggle" aria-label="Abrir menú"><i class="fas fa-bars"></i></button>
+        <nav class="menu">
+            <ul class="desktop">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#personajes">Personajes</a></li>
+                <li><a href="#autora">Autora</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <ul class="mobile">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#personajes">Personajes</a></li>
+                <li><a href="#autora">Autora</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner" class="banner">
+        <img src="img/bannerFuturoCarrousel.png" alt="Banner">
+    </section>
+
+    <div class="novedades">
+        <p>¡Esta ni siquiera es mi forma final! — Freezer</p>
+    </div>
+
+    <main>
+
+        <section id="home" class="home">
+            <div class="home-content">
+                <img src="img/portadaRosaCruz.jpg" alt="Portada Rosacruz">
+                <div class="text-container">
+                    <p>¿Me creerías si te dijera que hay algo tangible que puede darte vida eterna; que puede eliminar la pobreza y abolir las clases sociales; que podrá sanar enfermos y traernos la tan utópica paz mundial?</p>
+                    <p>O que, por el contrario, podría destruirlo todo...</p>
+                    <p>Mi nombre es Evelin Rosenkreuz. Llevo una vida tranquila que raya en el aburrimiento. Al igual que cualquier adolescente de 18 años quiero ir a la universidad, pasar noches en vela de fiesta en fiesta, y amanecer en la habitación de un chico que no he visto en mi vida. Sin embargo, mis planes se verán truncados por una larga cadena de asesinatos y secuestros que me golpeará de cerca. Mis morbosas deducciones van desde vampiros hasta hamburguesas hechas con carne humana. Pero lo que más me devana los sesos es averiguar cuál es la conexión entre la desaparición de mi familia y los recientes acontecimientos.</p>
+                    <p>De lo que si puedo estar segura es de que algo siniestro está gestándose en los rincones más oscuros de la ciudad. Algo que jamás debería salir a la luz. Algo que de ser divulgado atraería el odio y desprecio de las multitudes.</p>
+                    <p>Algo para lo que el mundo aún no está preparado.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider">
+            <img src="img/dividerRose.png" alt="Divider Rose">
+        </div>
+
+ 
+        <section id="personajes" class="personajes">
+            <h1>Personajes</h1>
+            <div class="imagenes-personajes">
+                <img src="img/personaje1.jpg" alt="Evelin Rosenkreuz">
+                <img src="img/personaje2.jpg" alt="Mailon Dirié">
+                <img src="img/personaje3.jpg" alt="Viral">
+                <img src="img/personaje4.jpg" alt="Alan Crowley">
+                <img src="img/personaje5.jpg" alt="Milena Bennett">
+                <img src="img/personaje6.jpg" alt="August Westcott">
+            </div>
+        </section>
+
+        <div class="divider">
+            <img src="img/dividerRose.png" alt="Divider Rose">
+        </div>
+
+
+        <section id="autora" class="autora">
+            <h1>Sobre la Autora</h1>
+            <div class="autora-content">
+                <img src="img/perfil1.jpg" alt="Perfil de K. S. López" class="perfil-img">
+                <div class="autora-text">
+                    <p>K. S. López es una escritora y narradora apasionada, nacida y criada en una pequeña ciudad donde los mitos y leyendas locales siempre alimentaron su imaginación. 
+                    Desde temprana edad, mostró un amor innato por las historias, devorando libros de diversos géneros que iban desde la fantasía épica hasta el thriller psicológico.
+                    Su fascinación por el misterio y lo sobrenatural se refleja en su obra debut, Rosacruz, donde combina elementos de suspense con un trasfondo oscuro y cautivador. 
+                    Licenciada en no hacer nada, ha trabajado en diversas publicaciones, pero fue su incursión en el mundo de la novela lo que le permitió dar rienda suelta a su estilo único.
+                    Su escritura es conocida por su habilidad para construir mundos complejos y personajes profundos, abordando temas universales como el amor, el sacrificio y la búsqueda de la verdad.
+                    Cuando no está escribiendo, disfruta de explorar la naturaleza y eliminar Counter Terrorists en el C.S. GO. 
+                    Su objetivo es inspirar a otros a contar sus propias historias y a encontrar la magia que reside en cada palabra.
+                    K. S. López reside actualmente en una bulliciosa ciudad, donde continúa desarrollando nuevas historias y explorando los misterios de la vida.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider">
+            <img src="img/dividerRose.png" alt="Divider Rose">
+        </div>
+
+
+        <section id="contacto" class="contacto">
+            <h1>Contacto</h1>
+            <form action="#" method="post">
+                <label for="nombre">Tu Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                
+                <label for="email">Tu Email</label>
+                <input type="email" id="email" name="email" placeholder="Escribe tu email" required>
+                
+                <label for="mensaje">Tu Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" rows="5" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rosacruz. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mobileMenu = document.querySelector('.menu ul.mobile');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
